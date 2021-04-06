@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="noDataIdentifier" id="gTV-IL-0wX" customClass="NoDataCell" customModule="CollectionXIB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3973481" translatesAutoresizingMaskIntoConstraints="NO" id="E8a-TG-YJ9">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data Available" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qED-3n-Twi">
+                        <rect key="frame" x="0.0" y="206" width="250" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="TDd-Hu-3jR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="E8a-TG-YJ9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Y4d-55-DLM"/>
+                <constraint firstAttribute="trailing" secondItem="E8a-TG-YJ9" secondAttribute="trailing" id="abm-7z-AOO"/>
+                <constraint firstAttribute="bottom" secondItem="qED-3n-Twi" secondAttribute="bottom" id="dwu-ma-f0i"/>
+                <constraint firstItem="E8a-TG-YJ9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="lKt-La-GdO"/>
+                <constraint firstAttribute="bottom" secondItem="E8a-TG-YJ9" secondAttribute="bottom" id="pO7-PI-CGP"/>
+                <constraint firstItem="qED-3n-Twi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="sqI-7f-hrV"/>
+                <constraint firstAttribute="trailing" secondItem="qED-3n-Twi" secondAttribute="trailing" id="wMo-uM-vad"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="111"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="3973481" width="1000" height="666.66668701171875"/>
+    </resources>
+</document>
